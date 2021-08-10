@@ -1,26 +1,20 @@
-# String Boot - Basic Security
+# Spring Boot 503 Exercise
 
 
-EXERCISE 4.01
+Instruction:
 -------------
-Create an application that uses basic security with JDBC 
-Authentication. Check that you can only see the login page 
-if you haven’t logged in and that you can then visit any page once you have logged in.
+Prepare a security-ready application that can display a list of cars. Each car should have AT LEAST the following fields:
 
-EXERCISE 4.02
--------------
-Create an application that uses a custom login form with the title, My Login Form.
+- Model
 
-EXERCISE 4.03
--------------
-Create an application with 3 pages: a course page, a teacher page and a student page. 
-Also create 3 users: one with ADMIN role, one with USER role and one with both. 
-Finally, set the permissions on your security so that only people 
-with the admin role can see the teacher page and only people 
-with the user role can see the student page.
+- Make
 
-4.04 USING DATABASE-BASED AUTHENTICATION
-----------------------------------------
+- Description
 
-- Implementing database-based permission with customized User and Role table
-- Implementing Logout functionality
+- Photo
+
+Use Bootstrap to share the same navbar across all pages.
+
+Bonus 1: Preload some cars in your CommandLineRunner class. You will need to upload your picture to cloudinary first, and use the url as the photo field.
+
+Bonus 2: Make it so Cars can have no photo. If no photo is inserted, set the photo field to an empty string. 
